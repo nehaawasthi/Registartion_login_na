@@ -4,7 +4,7 @@ import Home from './Components/Home'
 import {Translater} from './Components/common/Translater'
 function App() {
   return (
-    <div >
+    <div className ="App">
       {/* <header > */}
       <Translater />
         <Home />

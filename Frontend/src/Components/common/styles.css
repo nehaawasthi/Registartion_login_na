@@ -15,6 +15,30 @@ body {
   .App {
     text-align: center;
   }
+  ul.rtc-translator li img.rtc-flag {
+    height: 25px !important;
+    margin-right: 0.3em;
+}
+
+ul.rtc-translator li button {
+  font-size: large;
+  color:black
+}
+
+div.rtc-dropdown .rtc-dropdown-toggle::after {
+  margin-top: 10px;
+}
+
+div.rtc-dropdown .rtc-dropdown-toggle img {
+  height: 30px;
+}
+
+div.rtc-dropdown .rtc-dropdown-toggle {
+  color: black;
+  height: 40px;
+  font-size: larger;
+  align-items: center;
+}
   
   .App-header {
     background-color: #bbc0ca;
